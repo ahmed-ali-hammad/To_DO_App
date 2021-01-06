@@ -3,7 +3,7 @@
 
 <title>
 	{% block title %} 
-	login
+	Sign Up
 	{% endblock %}
 </title>
 
@@ -13,7 +13,7 @@
 		<form method="POST">
 		{{form|crispy}}
 		{% csrf_token %}
-		<button class="btn btn-dark" type= "subimt">login</button>
+		<button class="btn btn-dark" type= "subimt">Sign Up</button>
 	</form>
 	</div>
 
